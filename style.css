@@ -1,0 +1,488 @@
+*body{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    margin-top: -8px;
+}
+.head1 {
+background-color: white;
+text-align: right;
+
+}
+.head1 .tel{
+    text-decoration: none;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: black;
+    border-right: 1px solid black;
+    height: 1px;
+    
+}
+.head1{
+    font-size: 16px;
+}
+.head1 a{
+    margin-right: 20px;
+}
+.head2{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.head2 .sub21 .menu img{
+    position: relative;
+    bottom: 12px;
+}
+.head2 .sub211{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.sub212{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sub212 a{
+    text-decoration: none;
+    color: black;
+}
+.sub212 select{
+    border: none;
+    font-size: large;
+    height: 30px;
+    width:160px ;
+    margin-bottom: 20px;
+
+}
+
+.sub211 .sub21{
+    margin-right: 0px;
+}
+.sub21 select{
+    border: 3px solid orange;
+    font-size: large;
+    height: 40px;
+    width: 150px;
+    margin-top: -4px;
+    border-radius: 8px;
+}
+.line1{
+    border-right: 1px solid black;
+    height: 15px;
+    width: 1px;
+    margin-top: 12px;
+    margin-left: 40px;
+}
+.sub21 button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+.signup button{
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: orange;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+
+
+/* page1---------------------------------------------------------------- */
+.page1{
+    background-image: url("https://d36g7qg6pk2cm7.cloudfront.net/assets/landing_page/Bangalore-Desktop_Banner-cf0accce70b5c894e97612a3a58470fc91a6ca9118c61ecebf776cf5706896a0.webp");
+    height: 550px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:170px;
+    position: relative;
+    z-index: -1;
+}
+.iputbox{
+    border: 2px solid white;
+    height: 380px;
+    width: 380px;
+    background-color: white;
+    margin-left: 160px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 25px black;
+}
+.iputbox h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left:25px ;
+    font-size: 25px;
+}
+.iputbox p{
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.iputbox input{
+    height: 35px;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: -5px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.iputbox button{
+    height: 35px;
+    width: 340px;
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 240, 240);
+    background-color: orange;
+}
+.verbox{
+    border: 0px solid rgba(0, 0, 0, 0.46);
+    height: 40px;
+    width: 100%;
+    margin-top: 126px;
+    background-color: rgba(0, 0, 0, 0.46);
+    position: relative;
+    /* z-index: -1; */
+}
+.verbox h2{
+    text-align: right;
+    color: white;
+    margin-right: 20px;
+}
+.verbox span{
+    color: orange;
+}
+
+
+/* vertical box 2 */
+
+.verbox2{
+    border: none;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    position: absolute;
+    z-index: -1;
+}
+.verimg1 img{
+    height: 40px;
+
+}
+.verimg1{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    margin-left: 15px;
+}
+.vertxt{
+    font-family: sans-serif;
+    font-size: 16px;
+    opacity: 0.8;
+    padding: 0px 15px;
+}
+
+/* page 222 */
+.mainpg2{
+    border: none;
+    position: relative;
+    z-index: -1;
+}
+.mainpg2 img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.subscrb{
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 70px;
+    background: #fddc79;
+    margin-left:500px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* page3-------------- */
+.page3{
+    border: none;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(./images/third-background.webp) ;
+    z-index: -1;
+}
+.pge3cntnt{
+    border: none;
+    position: absolute;
+    top: 100px;
+}
+.pg3cntnt1{
+    font-family: sans-serif;
+    font-size: 55px;
+    padding-left: 50px;
+    font-weight: 400;
+    color: #003f54;
+}
+.pg3cntnt2{
+    font-family: sans-serif;
+    font-size: 55px;
+    padding-left: 50px;
+    font-weight: 700;
+    color: #307e98;
+}
+.bikes{
+    border:none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 80px;
+    margin-top: 40px;
+}
+.bikes img{
+    height: 280px;
+    margin-top: -50px;
+}
+/* page4---------- */
+.page4{
+    border: none;
+    width: 100%;
+    margin-top: 40px;
+}
+.page4 h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+}
+.page4 span{
+    color: #fed661;
+}
+.page4 img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+/* page6------------- */
+
+.page5images{
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.page5 h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+.page5 p{
+    border: none;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fed250;
+}
+.pg5imgs{
+    border: solid 1px rgb(250, 250, 250);
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.pg5imgs img{
+    height: 50px;
+}
+.footermain1{
+    background-color: rgb(53, 52, 52);
+    padding-bottom: 50px;
+    position: relative;
+    z-index: -1;
+}
+.footermn{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.ftrhd{
+    margin-top: 40px;
+    font-size: 12px;
+    font-family: sans-serif;
+   
+}
+.ftrhd h3{
+    color: white;
+}
+.ftrhd span{
+    /* position: relative; */
+    bottom: 10px;
+    color: orange;
+    font-size: 20px;
+}
+.ftrhd p{
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    
+}
+.ftrhd button{
+    font-size: 15px;
+    border-radius: 5px;
+    height: 25px;
+    background-color: rgb(106, 104, 104);
+    border: none;
+}
+.ftrhd1 img{
+    width: 30px;
+    margin-top: 20px;
+}
+.ftrhd1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: -70px;
+    margin-top: 30px;
+}
+.ftrhd1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.ftrstr{
+    position: inherit;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* position: relative; */
+    justify-content: left;
+    /* justify-items: stretch; */
+    gap: 150px;
+    /* left: 110px; */
+    margin-left: 110px;
+    color: white;
+
+}
+.sclmd h1{
+    font-size: 26px;
+}
+.sclmd img{
+    width: 25px;
+    margin-left: 10px;
+}
+.sclmd span{
+    position: relative;
+    bottom: 25px;
+    color: orange;
+    font-size: 30px;
+}
+
+.appstr h1{
+    font-size: 26px;
+}
+.appstr span{
+    position: inherit;
+    position: relative;
+    /* position: absolute; */
+    /* z-index: -1; */
+    bottom: 25px;
+    color: orange;
+    font-size: 30px;
+}
+.appimg{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.appstr img{
+    width: 140px;
+    
+}
+.page8{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.711);
+    color: rgb(216, 216, 216);;
+    padding-bottom: 30px;
+    
+}
+.page8 h1{
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.page8cntnt{
+    margin-top: 50px;
+    width: 95%;
+}
+.page8 p{
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.dot img{
+    width: 8px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+
+}
+.prcnc{
+    text-align: center;
+    margin-top: 20px;
+}
+.prcnc p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 90%;
+}
+.prcnc h1{
+    margin-right: 130px;
+}
+.prcnc h1 span{
+    position: relative;
+    bottom: 25px;
+    color: orange;
+    font-size: 30px;
+}
+.lastftr{
+    background-color: rgb(53, 52, 52);
+    overflow: hidden;
+    height: 30px;
+    padding-bottom: 0px;
+}
+.lastftr h1{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin-top: -1px;
+    font-family: sans-serif;
+}
+.lastftr span{
+    color: red;
+    font-size: 27px;
+    margin-top: 4px;
+}

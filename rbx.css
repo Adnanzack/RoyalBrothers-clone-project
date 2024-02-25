@@ -1,0 +1,187 @@
+.rbxpg1{
+    display: flex;
+    background-image: url(" https://d36g7qg6pk2cm7.cloudfront.net/assets/long_term/RBX_landing_web-8b84ff099c1cd0851362d28adccdcc8ca829a0fc36a2e3c5c01e1ce4764f0a7a.jpg ");
+    background-position: center;
+    background-size: contain;
+    padding-top:800px;
+    height: 50px;
+
+    
+}
+
+
+/* .rbximg1 img{
+    border: 0px solid black;
+    width: 300px;
+    height: 200px;
+    margin-top: 140px;
+    margin-left: 250px;
+    padding-right: 120px;
+    border-right: 5px solid rgb(25, 25, 25);
+}
+.rbxcntnt1 {
+    margin-top: 180px;
+    margin-left: 50px;
+
+}
+.rbxcntnt1 h2{
+    margin-left: 20px;
+    font-size: 30px;
+} */
+.rbxpg2{
+    margin-top: 50px;
+    padding: 30px;
+}
+.rbxpg2 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.rbxpg2 p{
+    text-align: center;
+    margin-top: -45px;
+    color: orange;
+}
+.rbxpg2img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cnt h3{
+    font-size: 18px;
+    text-align: center;
+}
+.pg3main{
+    margin-top: 40px;
+    padding: 50px;
+}
+.pg3{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.pg3cnt{
+    border: 1px solid rgb(183, 15, 15);
+    height: 280px;
+    width: 280px;
+    border: none;
+
+}
+.b111{
+    padding-right: 90px;
+    border: none;
+    font-size: 20px;
+}
+.b11{
+    background-image: url(./images/pg3img1.jpg);
+    background-size: cover;
+}
+.b12{
+    background-image: url(./images/pg3img2.jpg);
+    background-size: cover;
+}
+.b13{
+    background-image: url(./images/pg3img3.jpg);
+    background-size: cover;
+}
+.pg3cnt h4{
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.pg3cnt p{
+    color: rgba(61, 61, 61, 0.959);
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.pg4{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.pg4 h1{
+    margin-top: -30px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.sctrmain{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.scotr{
+    margin-left: 50px;
+}
+.sctr1{
+    border: 0px solid black;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 220px;
+    width: 250px;
+    background-color: rgb(235, 234, 234);
+    
+}
+.sctr2{
+    border: 0px solid black;
+    height: 40px;
+    width: 250px;
+    border-top: 2px solid rgb(56, 56, 56);
+    background-color: rgb(235, 234, 234);
+    font-size: large;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.sctr3{
+    border: 0px solid black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    background-color: orange;
+    font-size: large;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.s1{
+    background-color: rgb(235, 234, 234);
+    background-image: url(./images/Bajaj_Pulsar_150_neon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.s2{
+    background-image: url(./images/HONDA_ACTIVA_4G.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.s3{
+    background-image: url(./images/HONDA_ACTIVA_5G.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.msg p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.msg{
+    text-align: center;
+}
+.msg button{
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}

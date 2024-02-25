@@ -1,0 +1,65 @@
+*body{
+    padding: 0;margin: 0;
+}
+.ofrpg1{
+    background-image: url(./images/offer.jpg);
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: -1;
+}
+.ofrpgbox1{
+    border: 2px solid rgba(0, 0, 0, 0.614);
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 346px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.ofrpgbox1 h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 13px;
+}
+.oferbox{
+    margin-top: -80px;
+}
+.ofrpge2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding-bottom: 30px;
+} 
+.ofimgbox{
+    border: 1px solid black;
+    height: 180px;
+    width: 330px;
+    border-radius: 10px;
+}
+.b1{
+    background-image: url(./images/offerimg1.jpg);
+    background-size: cover;
+}
+.b2{
+    background-image: url(./images/ofr2.png);
+    background-size: cover;
+}
+.b3{
+    background-image: url(./images/ofr3.jpg);
+    background-size: cover;
+}
+.b4{
+    background-image: url(./images/ofr4.jpg);
+    background-size: cover;
+}
+.b5{
+    background-image: url(./images/ofr5.webp);
+    background-size: cover;
+}
+.b6{
+    background-image: url(./images/ofr6.png);
+    background-size: cover;
+}
